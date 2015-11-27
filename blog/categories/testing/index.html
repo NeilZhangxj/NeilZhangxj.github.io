@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Category: testing - Neilzhangxj's Blog</title>
+	<title>Category: testing - Neil Zhang</title>
 	<meta name="author" content="Neilzhangxj">
 
 	
@@ -17,15 +17,24 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="/atom.xml" rel="alternate" title="Neilzhangxj's Blog" type="application/atom+xml">
+	<link href="/atom.xml" rel="alternate" title="Neil Zhang" type="application/atom+xml">
 	
 	<link rel="canonical" href="http://neilzhangxj.github.io/blog/categories/testing/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
     <script src="//libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        function addBlankTargetForLinks () {
+            $('a[href^="http"]').each(function(){
+                                      $(this).attr('target', '_blank');
+                                      });
+        }
+        $(document).bind('DOMNodeInserted', function(event) {
+                     addBlankTargetForLinks();
+                     });
+        </script>
 	
   
 
@@ -41,12 +50,17 @@
 	<script src="/javascripts/md5.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+			$('.profilepic').append("/images/tag.jpg" + "?s=160' alt='Profile Picture' style='width: 160px;' />";
 		});
 	</script>
 	
 </div>
-
+<hgroup>
+    <h1><a href="/">Neil Zhang</a></h1>
+    
+    <h2>This programmer do have a girlfriend.</h2>
+    
+</hgroup>
 <nav id="main-nav"><ul class="main">
     <li><a href="/">Blog</a></li>
     <li><a href="http://about.me/shashankmehta">About</a></li>
@@ -117,11 +131,13 @@
 Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
 		</div>
 	</div>
-	
-
-
-
-
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 
