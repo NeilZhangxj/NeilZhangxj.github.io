@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Testing | Neilzhangxj's Blog]]></title>
+  <title><![CDATA[Category: testing | Neilzhangxj's Blog]]></title>
   <link href="http://neilzhangxj.github.io/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://neilzhangxj.github.io/"/>
-  <updated>2015-11-27T12:02:38+08:00</updated>
+  <updated>2015-11-27T13:49:17+08:00</updated>
   <id>http://neilzhangxj.github.io/</id>
   <author>
     <name><![CDATA[Neilzhangxj]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Welcome]]></title>
+    <title type="html"><![CDATA[welcome]]></title>
     <link href="http://neilzhangxj.github.io/blog/2015/11/27/welcome/"/>
     <updated>2015-11-27T10:13:32+08:00</updated>
     <id>http://neilzhangxj.github.io/blog/2015/11/27/welcome</id>
